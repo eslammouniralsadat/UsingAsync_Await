@@ -34,7 +34,7 @@
             // 
             // BtnProcess
             // 
-            this.BtnProcess.Location = new System.Drawing.Point(88, 107);
+            this.BtnProcess.Location = new System.Drawing.Point(86, 85);
             this.BtnProcess.Name = "BtnProcess";
             this.BtnProcess.Size = new System.Drawing.Size(193, 69);
             this.BtnProcess.TabIndex = 0;
@@ -45,17 +45,18 @@
             // lbltext
             // 
             this.lbltext.AutoSize = true;
-            this.lbltext.Location = new System.Drawing.Point(158, 239);
+            this.lbltext.Location = new System.Drawing.Point(172, 184);
             this.lbltext.Name = "lbltext";
-            this.lbltext.Size = new System.Drawing.Size(38, 15);
+            this.lbltext.Size = new System.Drawing.Size(25, 15);
             this.lbltext.TabIndex = 1;
-            this.lbltext.Text = "label1";
+            this.lbltext.Text = "......";
+            this.lbltext.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(386, 408);
+            this.ClientSize = new System.Drawing.Size(386, 251);
             this.Controls.Add(this.lbltext);
             this.Controls.Add(this.BtnProcess);
             this.Name = "FrmMain";
